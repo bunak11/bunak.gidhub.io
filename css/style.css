@@ -1331,8 +1331,9 @@ margin-bottom: 20px;
 
     }
     .header-inner {
+         height: 100%;
          padding: 0;
-        align-items: flex-start;
+         align-items: flex-start;
     }
 
     .header-brands {
