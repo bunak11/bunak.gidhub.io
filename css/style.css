@@ -23,6 +23,7 @@ p {
 .container {
     display: flex;
     width: 100%;
+    height: 100%;
     max-width: 1460px;
     margin: 0 auto;
     padding: 0 10px;
@@ -1316,7 +1317,28 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 510px) {
 
+    .header {
+        background-color: #fff;
+    }
+    .header:first-child {
+         background-color: #E1EDE6;
 
+    }
+
+    .container {
+        padding: 0;
+        height: 100%;
+
+    }
+    .header-inner {
+         padding: 0;
+        align-items: flex-start;
+    }
+
+    .header-brands {
+       background-color: #fff;
+        height: 68px;
+    }
 
     .menu label.toggleMenu {
         background-image: url(../img/List.png);
@@ -1325,7 +1347,8 @@ margin-bottom: 20px;
         height: 30px;
         cursor: pointer;
         position:relative;
-        left: 10px;
+        left: 25px;
+        top: 25px;
     }
 
     .menu li {
@@ -1537,7 +1560,9 @@ margin-bottom: 20px;
     .footer {
         height: 750px;
     }
-
+    .footer-inner {
+        align-items: flex-start;
+    }
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 184px 123px 88px;
